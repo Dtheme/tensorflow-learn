@@ -7,7 +7,7 @@
 视频类：
 
 - [谷歌机器学习入门教程](https://developers.google.cn/machine-learning/crash-course/)
-- [斯坦福大学：CNN网络的图像识别 【.youtube】 ](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
+- [斯坦福大学：基于CNN神经网络的图像学习 【.youtube】 ](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 - [吴恩达机器学习](https://study.163.com/course/introduction/1004570029.htm)
 - [吴恩达深度学习](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)
 - [林轩田：机器学习基石](https://www.bilibili.com/video/av4294020/)
@@ -25,5 +25,9 @@
 - [Numpy中文文档](https://www.numpy.org.cn)
 - [MIT线性代数公开课笔记 【python代码描述】](https://nbviewer.jupyter.org/github/zlotus/notes-linear-algebra/blob/master/ReadMe.ipynb)
 - [莫烦python的个人博客](https://morvanzhou.github.io/tutorials/machine-learning/)
+
+
+
+
 
 
