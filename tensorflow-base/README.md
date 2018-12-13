@@ -15,7 +15,7 @@
 - [莫烦python：Tensorflow 搭建自己的神经网络](https://www.bilibili.com/video/av16001891/)
 - [数学基础：3Blue1Brown 【.youtube】](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 - [数学基础：3Blue1Brown 【.哔哩哔哩】](http://space.bilibili.com/88461692/#/)
-- [MIT线性代数公开课]()
+- [MIT线性代数公开课](http://open.163.com/special/opencourse/daishu.html)
 
 文档类
 
