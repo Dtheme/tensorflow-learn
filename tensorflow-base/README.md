@@ -15,7 +15,7 @@
 - [莫烦python：Tensorflow 搭建自己的神经网络](https://www.bilibili.com/video/av16001891/)
 - [数学基础：3Blue1Brown 【.youtube】](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 - [数学基础：3Blue1Brown 【.哔哩哔哩】](http://space.bilibili.com/88461692/#/)
-- [MIT线性代数公开课](http://open.163.com/special/opencourse/daishu.html)
+- [MIT线性代数公开课]()
 
 文档类
 
@@ -23,7 +23,6 @@
 - [Tensorflow文档](https://www.tensorflow.org/tutorials/)
 - [Tensorflow官方中文文档](http://www.tensorfly.cn/tfdoc/api_docs/python/nn.html)
 - [Numpy中文文档](https://www.numpy.org.cn)
-- [MIT线性代数公开课笔记 【python代码描述】](https://nbviewer.jupyter.org/github/zlotus/notes-linear-algebra/blob/master/ReadMe.ipynb)
 - [莫烦python的个人博客](https://morvanzhou.github.io/tutorials/machine-learning/)
 
 
