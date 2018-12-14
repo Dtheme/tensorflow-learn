@@ -27,9 +27,16 @@ print(onesMatrix)
 print(emptyMatrix)
 
 # arange(1，10，2）表示起始位置，终点位置，步长，我使用的方式是从0开始到10步长1
-matixB = np.arange(10)  
-matixC = np.array([[1,2,3],[4,5,6],[7,8,9],[2,34,69]])
-print("切片：",matixB[0:5],"---",matixC[1:3])
+matrixB = np.arange(10)  
+matrixC = np.array([[1,2,3],[4,5,6],[7,8,9],[2,34,69]])
+print("切片：",matrixB[0:5],"---",matrixC[1:3])
+
+# 矩阵的切片 等量切片
+matrixA_Equ = np.split(matrixC,4,axis=0)
+
+# 不等切片
+matrixA_unEqu = np.array_split(matrixC, 5, axis=1)  # 按照指定方向将matrixC切5片 如果后面是空就返回空数组
+print("等分切片", matrixA_Equ,"不等分切片", matrixA_unEqu)
 
 rangeArr = np.arange(2,19,3)
 print("rangeArr:", rangeArr)
@@ -47,11 +54,10 @@ print("平均值：", np.mean(serialCompareArr))
 print("累加值逐个输出和累加值",np.cumsum(serialCompareArr),np.sum(serialCompareArr))
 print("逐差值：", np.diff(serialCompareArr))
 
- 
 # 切片 例如matixB[0:5] 切片取0，1，2，3，4
 # 对切片进行赋值 或者matixB[0:5] = 8888会将切片部分的所有值都赋值为8888
-matixB[0:5] = np.array([8888, 0000, 1111, 2222, 6666])  
-print("切片后：",matixB)
+matrixB[0:5] = np.array([8888, 0000, 1111, 2222, 6666])  
+print("切片后：",matrixB)
 
 # operator :运算 数组之间可以直接运算
 opArray1 = np.array([1,2,3,4])
@@ -84,3 +90,45 @@ print(dotRes1,dotRes2)
 mulRes = np.multiply(mulArr1, mulArr2)
 print(mulRes)
 
+# 迭代 
+forArr = np.arange(3,15).reshape((3,4))
+print(forArr)
+# 逆矩阵 inverse of a matrix.
+inv_forArr1 = forArr.T
+# inv_forArr2 = np.linalg.inv(forArr) 这种方式只能被用于square类型的矩阵。
+print(inv_forArr1)
+print(forArr[1][1])  # 取某个元素值
+
+# 迭代 注意迭代列实质是先转置矩阵求逆矩阵 然后再迭代出行
+print("先打印一下源矩阵看看：\n", forArr)
+for row in forArr:
+    print("迭代行：", row)
+
+for column in forArr.T:
+    print("迭代列：", column)
+
+# 矩阵合并
+combineMatrixA = np.array([1, 1, 1])
+combineMatrixB = np.array([2, 2, 2])
+# 上下合并 vertical combine
+combineMatrixV = np.vstack((combineMatrixA,combineMatrixB))
+print("A:\n",combineMatrixA,"\nB:\n", combineMatrixB,"\nC:\n", combineMatrixV)
+print(combineMatrixA.shape,combineMatrixV.shape)  # (3,) (2,3) 第一个是一维的3个元素，第二个是二维的2行3列
+
+# 横向合并horizontal combine
+combineMatrixH = np.hstack((combineMatrixA,combineMatrixB))
+print("A:\n",combineMatrixA,"\nB:\n", combineMatrixB,"\nC:\n", combineMatrixH)
+print(combineMatrixA.shape,combineMatrixH.shape)  # (3,) (6,) 第一个是一维的3个元素，第二个也是一维的6个元素 它们是数组
+
+print(combineMatrixH[:,np.newaxis])  # 将一个横向的数列转换成一个一行一列的矩阵
+
+# 多个数组合并的时候使用下面的方式（也可用于合并2个） axis = 0 横向合并 1 纵向合并
+# [[1 1 1]
+# [2 2 2]] 和[[5], [6]] 合并
+# 合并结果：
+# [[1 1 1 5]
+# [2 2 2 6]]
+combineMatrixC = np.array([[5], [6]])
+print("...",combineMatrixV)
+combineMore = np.concatenate((combineMatrixV,combineMatrixC), axis=1)
+print("concatenate合并的方式：", combineMore)
