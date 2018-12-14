@@ -29,6 +29,3 @@ with tf.Session() as sess:
     for _ in range(3):
         sess.run(update_vAdd)
         print(sess.run(tf_var))
-
- 
-，
