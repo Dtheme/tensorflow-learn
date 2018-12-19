@@ -132,6 +132,3 @@ combineMatrixC = np.array([[5], [6]])
 print("...",combineMatrixV)
 combineMore = np.concatenate((combineMatrixV,combineMatrixC), axis=1)
 print("concatenate合并的方式：", combineMore)
-
-
-
