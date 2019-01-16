@@ -29,3 +29,15 @@ with tf.Session() as sess:
     for _ in range(3):
         sess.run(update_vAdd)
         print(sess.run(tf_var))
+
+#  get_variable() 在创建变量的时候会查看当前的命名空间里是否有这个name的变量 如果有直接用，如果没有会创建一个新的
+#  variable()在创建的时候是重新创建，如果已经有了会报错（重定义）。
+with tf.variable_scope("scope1"):
+    w1 = tf.get_variable("w1", shape=[])
+    w2 = tf.Variable(0.0, name="w2")
+with tf.variable_scope("scope1", reuse=True):
+    w1_p = tf.get_variable("w1", shape=[])
+    w2_p = tf.Variable(1.0, name="w2")
+    
+print(w1 is w1_p, w2 is w2_p)
+
