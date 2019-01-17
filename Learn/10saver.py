@@ -16,4 +16,3 @@ with tf.Session() as tSession:
     #  这里可以 一遍训练一遍存储数据，也可以
     saver_path = saver.save(tSession,"NetSaver/saver_net1.ckpt")
     print("保存成功", saver_path)
- 
