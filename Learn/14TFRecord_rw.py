@@ -1,5 +1,5 @@
 import tensorflow as tf
-import numpy as np
+# import numpy as np
 
 # 创建.tfrecord文件，准备写入
 tfrecords_filename = './tfrecords/train.tfrecords'
@@ -14,3 +14,10 @@ for i in range(100):
         }))
     writer.write(example.SerializeToString()) 
 writer.close()
+
+
+def _int64_feature(value):
+    return tf.train.Feature(int64_list=tf.train.Int64List(value=[value]))
+
+
+if __name__ == "__main__":
