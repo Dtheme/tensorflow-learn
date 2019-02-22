@@ -6,17 +6,17 @@
 
 视频类：
 
-- [谷歌机器学习入门教程](https://developers.google.cn/machine-learning/crash-course/)
+- [谷歌机器学习入门教程【.谷歌】](https://developers.google.cn/machine-learning/crash-course/)
 - [斯坦福大学：基于CNN神经网络的图像学习 【.youtube】 ](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
-- [吴恩达机器学习](https://study.163.com/course/introduction/1004570029.htm)
-- [吴恩达深度学习](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)
-- [林轩田：机器学习基石](https://www.bilibili.com/video/av4294020/)
-- [林轩田：机器学习技法](https://www.bilibili.com/video/av12469267)
+- [吴恩达机器学习【.163】](https://study.163.com/course/introduction/1004570029.htm)
+- [吴恩达深度学习【.163】](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)
+- [林轩田：机器学习基石【.哔哩哔哩】](https://www.bilibili.com/video/av4294020/)
+- [林轩田：机器学习技法【.哔哩哔哩】](https://www.bilibili.com/video/av12469267)
 - [莫烦python：Tensorflow 搭建自己的神经网络](https://www.bilibili.com/video/av16001891/)
-- [数学基础：3Blue1Brown 【.youtube】](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
-- [数学基础：3Blue1Brown 【.哔哩哔哩】](http://space.bilibili.com/88461692/#/)
-- [MIT线性代数公开课](http://open.163.com/special/opencourse/daishu.html)
-
+- [数学兴趣：3Blue1Brown 【.youtube】](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+- [数学兴趣：3Blue1Brown 【.哔哩哔哩】](http://space.bilibili.com/88461692/#/)
+- [数学学习：MIT线性代数公开课【.163】](http://open.163.com/special/opencourse/daishu.html)
+- [数学学习：MIT概率论公开课【.哔哩哔哩】](https://www.bilibili.com/video/av6182731/)
 文档类
 
 - [动手学深度学习](https://zh.diveintodeeplearning.org)
