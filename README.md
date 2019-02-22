@@ -30,7 +30,7 @@
 
   
 
-  文档类
+文档类：
 
 - [动手学深度学习](https://zh.diveintodeeplearning.org)
 
